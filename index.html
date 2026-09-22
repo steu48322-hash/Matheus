@@ -14,6 +14,15 @@
 </head>
 <body>
 
+  <!-- Intro -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro-name"><span>Luna</span> <em>Bellini</em></div>
+    <div class="intro-bar"><i></i></div>
+  </div>
+  <div class="progress" id="progress"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="grain" aria-hidden="true"></div>
+
   <!-- Aviso +18 -->
   <div class="age-gate" id="ageGate" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
     <div class="age-box">
@@ -21,7 +30,7 @@
       <h2 id="ageTitle">Conteúdo para maiores de 18 anos</h2>
       <p>Esta página é destinada exclusivamente a adultos. Ao entrar, você confirma ter 18 anos ou mais.</p>
       <div class="age-actions">
-        <button class="btn btn-primary" id="ageYes">Tenho 18 anos ou mais</button>
+        <button class="btn magnetic btn-primary" id="ageYes">Tenho 18 anos ou mais</button>
         <a class="btn btn-ghost" href="https://www.google.com">Sair</a>
       </div>
     </div>
@@ -45,11 +54,11 @@
     <section class="hero" id="inicio">
       <div class="hero-text">
         <p class="eyebrow">Acompanhante · Bessa · João Pessoa – PB</p>
-        <h1>Luna<br><em>Bellini</em></h1>
+        <h1 class="split">Luna<br><em>Bellini</em></h1>
         <p class="lead">Acompanhante de luxo, vaidosa e cuidadosa. Local próprio, sigiloso e confortável no Bessa, em João Pessoa.</p>
         <p class="rating">★★★★★ <strong>5.0</strong> · 37 avaliações · Documentos verificados</p>
         <div class="hero-actions">
-          <a href="https://wa.me/5583986149026?text=Oi%20Luna%2C%20vi%20sua%20p%C3%A1gina%20e%20gostaria%20de%20agendar." class="btn btn-primary" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+          <a href="https://wa.me/5583986149026?text=Oi%20Luna%2C%20vi%20sua%20p%C3%A1gina%20e%20gostaria%20de%20agendar." class="btn magnetic btn-primary" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
           <a href="#galeria" class="btn btn-ghost">Ver galeria</a>
           <a href="https://fatalfans.com/luna0w" class="btn btn-ghost" target="_blank" rel="noopener">Conteúdo exclusivo</a>
         </div>
@@ -59,6 +68,14 @@
       </figure>
     </section>
 
+    <!-- Faixa animada -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Luna Bellini</span><i>✦</i><span>João Pessoa</span><i>✦</i><span>Local próprio</span><i>✦</i><span>Sigilo total</span><i>✦</i><span>5.0 ★</span><i>✦</i>
+        <span>Luna Bellini</span><i>✦</i><span>João Pessoa</span><i>✦</i><span>Local próprio</span><i>✦</i><span>Sigilo total</span><i>✦</i><span>5.0 ★</span><i>✦</i>
+      </div>
+    </div>
+
     <!-- Sobre -->
     <section class="about" id="sobre">
       <div class="about-photo">
@@ -66,7 +83,7 @@
       </div>
       <div class="about-text">
         <p class="eyebrow">Sobre mim</p>
-        <h2>Prazer, <em>Luna</em>.</h2>
+        <h2 class="split">Prazer, <em>Luna</em>.</h2>
         <p>Sou uma acompanhante de luxo, vaidosa e cuidadosa, estilo namoradinha, que preza por conexão, química e por tornar cada encontro uma experiência agradável e memorável.</p>
         <p>Tenho local totalmente sigiloso e discreto, pensado justamente para você que valoriza privacidade, conforto e tranquilidade.</p>
         <p>Também ofereço massagem tântrica, para quem busca relaxamento, presença e conexão. E gosto de conversar antes para entender seus desejos e proporcionar uma experiência personalizada.</p>
@@ -93,7 +110,7 @@
     <section class="gallery" id="galeria">
       <div class="section-head">
         <p class="eyebrow">Galeria</p>
-        <h2>Fotos <em>reais</em></h2>
+        <h2 class="split">Fotos <em>reais</em></h2>
       </div>
       <div class="grid" id="grid">
         <!-- Adicione fotos em /fotos com os nomes 01.jpg, 02.jpg ... 12.jpg. As que não existirem são ocultadas. -->
@@ -116,7 +133,7 @@
     <section class="info" id="info">
       <div class="section-head">
         <p class="eyebrow">Informações</p>
-        <h2>Como <em>funciona</em></h2>
+        <h2 class="split">Como <em>funciona</em></h2>
       </div>
       <div class="cards">
         <article class="card">
@@ -146,7 +163,7 @@
     <section class="reviews" id="avaliacoes">
       <div class="section-head">
         <p class="eyebrow">Avaliações</p>
-        <h2>O que <em>dizem</em></h2>
+        <h2 class="split">O que <em>dizem</em></h2>
         <p class="rating">★★★★★ <strong>5.0</strong> · 37 avaliações no Fatal Model</p>
       </div>
       <div class="review-grid">
@@ -178,7 +195,7 @@
     <section class="prices" id="valores">
       <div class="section-head">
         <p class="eyebrow">Valores</p>
-        <h2>Investimento</h2>
+        <h2 class="split">Investimento</h2>
       </div>
       <ul class="price-list">
         <li><span>15 minutos</span><strong>R$ 150</strong></li>
@@ -190,13 +207,20 @@
       <p class="price-note">Dinheiro · Pix · Crédito · Débito</p>
     </section>
 
+    <div class="marquee marquee-alt" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Agende pelo WhatsApp</span><i>✦</i><span>Discrição</span><i>✦</i><span>Conforto</span><i>✦</i><span>Conexão</span><i>✦</i>
+        <span>Agende pelo WhatsApp</span><i>✦</i><span>Discrição</span><i>✦</i><span>Conforto</span><i>✦</i><span>Conexão</span><i>✦</i>
+      </div>
+    </div>
+
     <!-- Contato -->
     <section class="contact" id="contato">
       <p class="eyebrow">Contato</p>
-      <h2>Vamos <em>marcar?</em></h2>
+      <h2 class="split">Vamos <em>marcar?</em></h2>
       <p class="lead">Atendimento somente com horário marcado. Envie uma mensagem com dia e horário desejados.</p>
       <div class="contact-actions">
-        <a class="btn btn-primary btn-lg" href="https://wa.me/5583986149026?text=Oi%20Luna%2C%20vi%20sua%20p%C3%A1gina%20e%20gostaria%20de%20agendar." target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn magnetic btn-primary btn-lg" href="https://wa.me/5583986149026?text=Oi%20Luna%2C%20vi%20sua%20p%C3%A1gina%20e%20gostaria%20de%20agendar." target="_blank" rel="noopener">WhatsApp</a>
         <a class="btn btn-ghost btn-lg" href="https://fatalfans.com/luna0w" target="_blank" rel="noopener">Conteúdo exclusivo</a>
       </div>
     </section>
