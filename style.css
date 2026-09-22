@@ -425,3 +425,6 @@ section { padding: clamp(4rem, 10vw, 8rem) clamp(16px, 5vw, 64px); }
   .split .w > span, .hero-photo, .hero-photo img, .tile.reveal { transform: none !important; clip-path: none !important; opacity: 1 !important; }
   .about-photo::before { display: none; }
 }
+
+/* Galeria com 10 fotos: 5 colunas em telas grandes */
+@media (min-width: 1100px) { .grid { grid-template-columns: repeat(5, 1fr); } }
