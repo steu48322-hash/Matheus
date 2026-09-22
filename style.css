@@ -6,7 +6,7 @@
   --text: #f4efe9;
   --muted: #a89f97;
   --accent: #b3122a;       /* vermelho das unhas / maiô */
-  --accent-2: #d8b36a;     /* dourado (Sky Bar) */
+  --accent-2: #ff3b55;     /* vermelho claro para destaques */
   --radius: 18px;
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Inter", system-ui, -apple-system, sans-serif;
@@ -367,7 +367,7 @@ section { padding: clamp(4rem, 10vw, 8rem) clamp(16px, 5vw, 64px); }
 .card, .review { position: relative; overflow: hidden; }
 .card::before, .review::before {
   content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: radial-gradient(400px circle at var(--mx, 50%) var(--my, 50%), rgba(216,179,106,.12), transparent 40%);
+  background: radial-gradient(400px circle at var(--mx, 50%) var(--my, 50%), rgba(255,59,85,.14), transparent 40%);
   opacity: 0; transition: opacity .4s;
 }
 .card:hover::before, .review:hover::before { opacity: 1; }
