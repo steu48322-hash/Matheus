@@ -61,7 +61,7 @@ document.addEventListener('keydown', e => {
 });
 
 // Animação ao rolar
-const revealEls = document.querySelectorAll('.hero-text, .hero-photo, .about-photo, .about-text, .section-head, .tile, .card, .contact > *');
+const revealEls = document.querySelectorAll('.hero-text, .hero-photo, .about-photo, .about-text, .section-head, .tile, .card, .price-list li, .contact > *');
 revealEls.forEach(el => el.classList.add('reveal'));
 const io = new IntersectionObserver(entries => {
   entries.forEach(entry => {

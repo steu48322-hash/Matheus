@@ -232,3 +232,21 @@ section { padding: clamp(4rem, 10vw, 8rem) clamp(16px, 5vw, 64px); }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+/* Avaliação no topo */
+.rating { margin-top: 1rem; font-size: .9rem; color: var(--muted); }
+.rating strong { color: var(--text); font-weight: 500; }
+.hero .rating { color: var(--accent-2); }
+.hero .rating { letter-spacing: .02em; }
+
+/* Valores */
+.prices { max-width: 760px; margin: 0 auto; }
+.price-list { list-style: none; border-top: 1px solid var(--line); }
+.price-list li {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.price-list span { font-size: 1.05rem; }
+.price-list strong { font: 400 1.9rem var(--serif); color: var(--accent-2); }
+.price-note { margin-top: 1.5rem; color: var(--muted); font-size: .85rem; letter-spacing: .15em; text-transform: uppercase; text-align: center; }
